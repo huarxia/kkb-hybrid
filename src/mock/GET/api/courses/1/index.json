@@ -1,0 +1,45 @@
+{
+    "status": 0,
+    "statusInfo": "success",
+    "data": {
+        "count": 2,
+        "courses": [
+            {
+                "type": "course",
+                "courseid": 16,
+                "name": "产品经理",
+                "pic": "http://i.kaikeba.com/147122878992177116?imageslim",
+                "bigPic": "http://i.kaikeba.com/147122878992176094?imageslim",
+                "category": "产品学院",
+                "oneword": "为改变世界而生。",
+                "salaryRange": "月薪5-50k",
+                "description": "零基础也能轻松入门。拥有超过5年产品经理职业教育积淀，教学效果与口碑领跑业界，现已成功帮助超过10000人成为产品经理。你，会是下一个进入BAT的产品精英么？",
+                "lecture": "刘文智",
+                "hours": 309,
+                "longtime": 2678,
+                "recommend": 1,
+                "custom1": "21+商业项目实战",
+                "custom2": "52+大咖主题分享",
+                "custom3": "100+专业课题练习"
+            },
+            {
+                "type": "course",
+                "courseid": 16,
+                "name": "产品运营",
+                "pic": "http://i.kaikeba.com/147122896547938623?imageslim",
+                "bigPic": "http://i.kaikeba.com/147122896547938026?imageslim",
+                "category": "产品学院",
+                "oneword": "因为走心，所以高薪。",
+                "salaryRange": "月薪5-60k",
+                "description": "如何创造数亿营收、俘获千万用户？来自携程与新浪的两位运营大牛，将从“实用”原则出发，带你尽情深入这个广阔的职业领域，全面驱动公司业务生生不息。",
+                "lecture": "杨琦、欧拓新 ",
+                "hours": 176,
+                "longtime": 895,
+                "recommend": 1,
+                "custom1": "2+名师精心创造",
+                "custom2": "25+商业项目实战",
+                "custom3": "114+专业课题练习"
+            }
+        ]
+    }
+}

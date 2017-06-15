@@ -1,0 +1,216 @@
+{
+    "status": 0,
+    "statusInfo": "success",
+    "data": {
+        "components": [
+            {
+                "type": "signupHeader",
+                "fields": {
+                    "field1": {
+                        "title": "signupHeader",
+                        "field": "signupHeader",
+                        "components": [
+                            {
+                                "type": "signupKefu",
+                                "fields": {
+                                    "field1": {
+                                        "title": "课程报名客服",
+                                        "field": "signupKefu"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "slideShow",
+                "fields": {
+                    "field1": {
+                        "title": "课程报名头图",
+                        "field": "signupHeaderImg",
+                        "style": {
+                            "height": "3.5rem"
+                        },
+                        "titleStyle": {
+                            "color": "#fff",
+                            "font-size": ".48rem"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "kkbInput",
+                "subType": "input",
+                "fields": {
+                    "field1": {
+                        "title": "kkbInput",
+                        "field": "kkbInputUser",
+                        "placeHolder": "请输入用户名",
+                        "icon": "fa-user-o",
+                        "postfix": "后置文字",
+                        "prefix": "前置文字",
+                        "validateRules": {
+                            "required": {
+                                "rule": true,
+                                "message": "不能不填啊!"
+                            },
+                            "valueType": {
+                                "rule": "/^[a-zA-Z0-9_-]{4,16}$/",
+                                "message": "只能填入4-16位字符"
+                            },
+                            "minLength": {
+                                "rule": 4,
+                                "message": "长度不能小于4"
+                            },
+                            "maxLength": {
+                                "rule": 16,
+                                "message": "长度不能大于16"
+                            },
+                            "minValue": {
+                                "rule": 20,
+                                "message": "不能小于20"
+                            },
+                            "maxValue": {
+                                "rule": 30,
+                                "message": "不能大于30"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "type": "kkbInput",
+                "subType": "input",
+                "fields": {
+                    "field1": {
+                        "title": "kkbInput",
+                        "field": "kkbInputPhone",
+                        "placeHolder": "请输入手机号码",
+                        "icon": "fa-mobile-phone",
+                        "postfix": "后置文字",
+                        "prefix": "前置文字",
+                        "validateRules": {
+                            "required": {
+                                "rule": true,
+                                "message": "不能不填啊!"
+                            },
+                            "valueType": {
+                                "rule": "/^((13[0-9])|(14[5|7])|(15([0-3]|[5-9]))|(18[0-9]))\\d{8}$/",
+                                "message": "只能填入手机号码"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "type": "kkbInput",
+                "subType": "input",
+                "fields": {
+                    "field1": {
+                        "title": "kkbInput",
+                        "field": "kkbInputQQ",
+                        "placeHolder": "请输入QQ号码",
+                        "icon": "fa-qq",
+                        "postfix": "后置文字",
+                        "prefix": "前置文字",
+                        "validateRules": {
+                            "required": {
+                                "rule": true,
+                                "message": "不能不填啊!"
+                            },
+                            "valueType": {
+                                "rule": "/^[1-9][0-9]{4,10}$/",
+                                "message": "请填入正确QQ号码"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "type": "select2",
+                "fields": {
+                    "field1": {
+                        "title": "select2",
+                        "field": "select2Objective",
+                        "icon": "fa-crosshairs",
+                        "minimumResultsForSearch": "Infinity 支持搜索选择不设置",
+                        "multiple": "multiple 多选需设置",
+                        "maximumSelectionLength": 2,
+                        "data": [
+                            {
+                                "id": "在校生想顺利就业",
+                                "text": "在校生想顺利就业"
+                            },
+                            {
+                                "id": "在校生想创业",
+                                "text": "在校生想创业"
+                            },
+                            {
+                                "id": "应届毕业生就业",
+                                "text": "应届毕业生就业"
+                            },
+                            {
+                                "id": "在职转岗",
+                                "text": "在职转岗"
+                            },
+                            {
+                                "id": "在岗想升职加薪",
+                                "text": "在岗想升职加薪"
+                            },
+                            {
+                                "id": "为创业储备",
+                                "text": "为创业储备"
+                            },
+                            {
+                                "id": "其他",
+                                "text": "其他"
+                            }
+                        ],
+                        "checked": "在校生想顺利就业",
+                        "validateRules": {
+                            "required": {
+                                "rule": true,
+                                "message": "不能不选啊!"
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "type": "select2",
+                "fields": {
+                    "field1": {
+                        "title": "select2",
+                        "field": "select2Experience",
+                        "icon": "kkb-h kkb-h-boshimao-kongxin",
+                        "minimumResultsForSearch": "Infinity",
+                        "multiple": "multiple 多选需设置",
+                        "maximumSelectionLength": 2,
+                        "data": [
+                            {
+                                "id": "完全是行业小白",
+                                "text": "完全是行业小白"
+                            },
+                            {
+                                "id": "在行业内,缺乏目标岗位经验",
+                                "text": "在行业内,缺乏目标岗位经验"
+                            },
+                            {
+                                "id": "有部分岗位能力经验",
+                                "text": "有部分岗位能力经验"
+                            }
+                        ],
+                        "checked": "完全是行业小白",
+                        "validateRules": {
+                            "required": {
+                                "rule": true,
+                                "message": "不能不选啊!"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

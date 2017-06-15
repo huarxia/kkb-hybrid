@@ -1,0 +1,132 @@
+#order-pay {
+    .red {
+        color: #f02d36!important;
+    }
+    header {
+        text-align: center;
+        background-color: #fff;
+        line-height: 1rem;
+        h1 {
+            color: #3f3939;
+            font-size: .4rem;
+            margin: 0;
+            font-weight: 500;
+        }
+    }
+    .panel {
+        padding: 0 0 0 .3rem;
+        margin-top: .3rem;
+        background-color: #fff;
+        text-align: left;
+        font-size: .8rem;
+        span {
+            color: #3f3939;
+            display: inline-block;
+            font-size: .32rem;
+            vertical-align: middle;
+        }
+        span:first-child {
+            width: 25%;
+            font-size: .34rem;
+        }
+        span:last-child {
+            color: #706969;
+        }
+        ul {
+            list-style: none;
+            color: #3f3939;
+            font-size: .34rem;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+            li {
+                margin: 0;
+                padding: .3rem 0;
+                display: flex;
+                padding-right: .3rem;
+                span {
+                    flex: 1;
+                    font-size: .3rem;
+                }
+                span:first-child {
+                    flex: 0 0 2rem;
+                }
+                span:last-child {
+                    text-align: right;
+                }
+            }
+            li:not(:first-child) {
+                border-top: 1px solid #eee;
+            }
+        }
+    }
+    .pay-way {
+        padding-top: .3rem;
+        .kkb-h {
+            font-size: .48rem;
+        }
+        h4 {
+            font-size: .28rem;
+            font-weight: 400;
+            color: #3f3939;
+            margin-top: 0;
+            margin-bottom: .2rem;;
+        }
+        ul {
+            li {
+                border-top: 1px solid #eee;
+                padding: 0;
+                padding-right: .3rem;
+                label {
+                    display: flex;
+                    width: 100%;
+                    padding: .3rem 0;
+                    span {
+                        p {
+                            margin: 0;
+                        }
+                        p:first-child {
+                            font-size: .28rem;
+                            color: #000;
+                        }
+                        p:last-child {
+                            font-size: .24rem;
+                            color: #706969;
+                        }
+                        flex: 1;
+                    }
+                    span:first-child {
+                        flex: 0 0 .8rem;
+                    }
+                }
+            }
+        }
+        .alipay {
+            .kkb-h-zhifubao {
+                color: #00a3ee;
+            }
+        }
+        .wechat {
+            .kkb-h-wxpay {
+                color: #609700;
+            }
+        }
+    }
+    .pay-buttom {
+        padding: .3rem;
+        background-color: rgba(255, 255, 255, 0);
+        .payfor {
+            display: block;
+            width: 100%;
+            text-align: center;
+            outline: none;
+            border: none;
+            background-color: #f02d36;
+            border-radius: .1rem;
+            font-size: .36rem;
+            color: #fff;
+            line-height: 1rem;
+            padding: 0 1.36rem;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "status": 0,
+    "statusInfo": "success",
+    "data": {
+        "kHeader": "",
+        "indexSlideShow": [
+            {
+                "src": "http://i.kaikeba.com/149214167322843086",
+                "href": "http://www.chanpin100.com/article/103549"
+            },
+            {
+                "src": "http://i.kaikeba.com/149300343865353422",
+                "href": "http://www.chanpin100.com/article/103608"
+            },
+            {
+                "src": "http://i.kaikeba.com/147732361405272022",
+                "href": "http://m.kaikeba.com/special/pm/?gxbapp"
+            },
+            {
+                "src": "http://i.kaikeba.com/147732349183741791",
+                "href": "http://m.kaikeba.com/special/uxd/?gxbapp"
+            }
+        ],
+        "indexIcon": "",
+        "indexlayoutBox1": "",
+        "indexlayoutBox2": ""
+    }
+}

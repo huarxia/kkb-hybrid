@@ -1,0 +1,72 @@
+.course-item {
+    border-radius: .04rem;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: .24rem;
+    font-size: 0;
+    position: relative;
+    & > img {
+        width: 100%;
+    }
+    .category {
+        font-size: .28rem;
+        line-height: .28rem;
+        background-color: rgba(0, 0, 0, .35);
+        padding: .04rem .15rem;
+        color: #fff;
+        border-radius: .03rem;
+        position: absolute;
+        top: .15rem;
+        left: .15rem;
+        font-weight: 700;
+    }
+    .info {
+        background-color: #f6f5f5;
+        padding: .24rem;
+        font-size: .24rem;
+        color: #666;
+        text-align: left;
+        p {
+            margin: 0;
+        }
+        .name {
+            line-height: 1;
+            margin-bottom: .18rem;
+            font-size: .3rem;
+        }
+        .salary {
+            color: #00aae5;
+            float: right;
+        }
+        .sub {
+            font-size: .26rem;
+            color: #999;
+            line-height: .3rem;
+            span {
+                position: relative;
+                padding: 0 .14rem;
+            }
+            span:first-child:after {
+                content: '';
+                position: absolute;
+                right: -.06rem;
+                height: .32rem;
+                border-right: .04rem solid #ddd;
+                -webkit-transform: scaleX(.5);
+                transform: scaleX(.5);
+                top: 50%;
+                margin-top: -.15rem;
+            }
+        }
+        .sub span:first-child {
+            padding-left: 0;
+        }
+    }
+}
+.course-item.small {
+    width: 48%;
+    .category,
+    .salary {
+        display: none;
+    }
+}

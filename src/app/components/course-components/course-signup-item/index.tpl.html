@@ -1,0 +1,19 @@
+<div id="course-singup-item">
+    <div class="header"
+        :style="headerStyle">
+        <strong class="price">¥{{data.price}}</strong>
+        <span class="tip-des">{{data.tipDes}}</span>
+    </div>
+    <div class="body"
+        :style="bodyStyle">
+        <p class="remark" v-html="data.remark"></p>
+        <img class="corneMark"
+        :src="data.corneMark">
+        <component v-for="item in items"
+            :is="item.type"
+            :key="item.type"
+            :config="item"
+            :binding-data="bindingData">
+        </component>
+    </div>
+</div>

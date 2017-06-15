@@ -1,0 +1,18 @@
+<div class="course-step">
+    <div class="title">
+        <span 
+            :style="style">
+                {{data.title}}
+        </span>
+        <div class="time" v-if="data.time">
+            <i class="fa fa-clock-o"></i>
+            {{data.time}}
+        </div>
+    </div>
+    <component v-for="item in items"
+        :is="item.type"
+        :key="item.type"
+        :config="item"
+        :binding-data="bindingData">
+    </component>
+</div>

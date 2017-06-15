@@ -1,0 +1,25 @@
+<div id="section">
+    <course-video :vid="bindingData.playing.vid"></course-video>
+    <div class="section-info">
+        <p class="title">{{bindingData.data.title}}</p>
+        <p class="description">{{bindingData.data.description}}</p>
+        <p class="tutor">
+            <i aria-hidden="true" class="fa fa-user-circle-o"></i>
+            <template v-for="item in bindingData.data.lectures_mini">
+                {{item}}
+            </template>
+        </p>
+    </div>
+    <div class="play-box">
+        <ul class="play-list">
+            <li
+                class="item"
+                v-for="item in bindingData.data.nodes"
+                :class="{active: item.nodeid === bindingData.playing.nodeId}"
+                @click="play(item.vid, item.nodeid)">
+                <i aria-hidden="true" class="fa fa-play-circle-o"></i>
+                {{item.title}}
+            </li>
+        </ul>
+    </div>
+</div>

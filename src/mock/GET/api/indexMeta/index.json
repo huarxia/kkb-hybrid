@@ -1,0 +1,82 @@
+{
+    "status": 0,
+    "statusInfo": "success",
+    "data": {
+        "components": [
+            {
+                "type": "kHeader",
+                "fields": {
+                    "field1": {
+                        "title": "header",
+                        "field": "kHeader"
+                    }
+                }
+            },
+            {
+                "type": "slideShow",
+                "fields": {
+                    "field1": {
+                        "title": "轮播图",
+                        "field": "indexSlideShow",
+                        "style": {
+                            "height": "3.6rem"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "indexIcon",
+                "fields": {
+                    "field1": {
+                        "title": "indexIcon",
+                        "field": "indexIcon"
+                    }
+                }
+            },
+            {
+                "type": "layoutBox",
+                "fields": {
+                    "field1": {
+                        "title": "热门课程",
+                        "field": "indexlayoutBox1",
+                        "isIcon": {
+                            "rule": false,
+                            "class": ""
+                        },
+                        "childFields": [
+                            {
+                                "type": "course",
+                                "fieldStyle": "small",
+                                "url": "/courses/1",
+                                "method": "get",
+                                "param": ""                        
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "layoutBox",
+                "fields": {
+                    "field1": {
+                        "title": "热门课程",
+                        "field": "indexlayoutBox2",
+                        "isIcon": {
+                            "rule": false,
+                            "class": ""
+                        },
+                        "childFields": [
+                            {
+                                "type": "course",
+                                "fieldStyle": "default",
+                                "url": "/courses/2",
+                                "method": "get",
+                                "param": ""                        
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

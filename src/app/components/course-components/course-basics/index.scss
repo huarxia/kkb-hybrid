@@ -1,0 +1,25 @@
+#course-basics {
+    h3.basics-title {
+        font-size: .36rem;
+        line-height: 1.40625;
+        color: #3f3939;
+        font-weight: 400;
+        margin: 0;
+    }
+    .basics-p {
+        overflow: hidden;
+        margin: .15rem 0;
+        span {
+            display: inline-block;
+            vertical-align: top;
+        }
+        .title {
+
+        }
+        .description {
+            .descriptionSec {
+                display: inline-block;
+            }
+        }
+    }
+}

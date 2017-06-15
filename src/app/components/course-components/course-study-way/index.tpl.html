@@ -1,0 +1,12 @@
+<div id="course-study-way" class="tab-control-box course-introduce">
+    <h3 class="study-way-h3">{{data.title}}</h3>
+    <div class="study-way-box">
+        <component v-for="item in childComponents"
+                :is="item.type"
+                :key="item.type"
+                :config="item"
+                :binding-data="bindingData"
+                :fieldStyle="item.fieldStyle">
+        </component>
+    </div>
+</div>

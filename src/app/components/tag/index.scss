@@ -1,0 +1,28 @@
+.tag {
+    padding-bottom: .3rem;
+    span {
+        float: left;
+        margin-top: .22rem;
+        margin-right: .22rem;
+        padding: .06rem .15rem .05rem;
+        font-size: .26rem;
+        color: #e43e3e;
+        line-height: 1.57692;
+        border-radius: .08rem;
+        position: relative;
+    }
+    span::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200%;
+        height: 200%;
+        -webkit-transform: scale(.5);
+        transform: scale(.5);
+        -webkit-transform-origin: left top;
+        transform-origin: left top;
+        border: 1px solid #e43e3e;
+        border-radius: .08rem;
+    }
+}

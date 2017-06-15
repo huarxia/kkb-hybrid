@@ -1,0 +1,16 @@
+<div class="course-item"
+    :class="fieldStyle"
+    @click.stop="gotoCourseDetail(data.courseid)">
+    <img :src="data.picSrc">
+    <span class="category">{{data.category}}</span>
+    <div class="info">
+        <p class="name">
+            {{data.name}}
+            <span class="salary">{{data.salaryRange}}</span>
+        </p>
+        <p class="sub">
+            <span>{{data.hours}} 课时</span>
+            <span>{{data.longtime}} 分钟</span>
+        </p>
+    </div>
+</div>

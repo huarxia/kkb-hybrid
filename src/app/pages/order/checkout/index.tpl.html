@@ -1,0 +1,53 @@
+<div id="order-checkout">
+    <header>
+        <h1>确认信息</h1>
+    </header>
+    <div class="panel student-info">
+        <ul>
+            <li>
+                <span>姓名</span>
+                <span>{{userData.trueName}}</span>
+            </li>
+            <li>
+                <span>QQ</span>
+                <span>{{userData.qq}}</span>
+            </li>
+            <li>
+                <span>学习目标</span>
+                <span>{{userData.studentTarget}}</span>
+            </li>
+            <li>
+                <span>学习基础</span>
+                <span>{{userData.studentBasis}}</span>
+            </li>
+        </ul>
+    </div>
+    <div class="panel course clearfix">
+        <img
+            :src="courseData.pic">
+        <div class="course-info">
+            <p>{{courseData.desc}}</p>
+            <p>￥{{courseData.occupyPrice}}</p>
+        </div>
+    </div>
+    <div class="panel panel-box coupon-code">
+        <span>优惠码</span>
+        <span>
+            <input placeholder="输入优惠码"
+                v-model="couponCode"
+                @blur="checkAccount()">
+        </span>
+    </div>
+    <div class="panel panel-box spec-price clearfix">
+        <span>商品金额</span>
+        <span class="pull-right red">￥{{courseData.occupyPrice}}</span>
+    </div>
+    <div class="bottom-bar clearfix">
+        <div class="panel panel-box final-price clearfix">
+            <span>实付款:</span>
+            <span class="red">￥{{finalPrice}}</span>
+        </div>
+        <a class="pay"
+            :href="'#/order/pay/' + courseId">去付款</a>
+    </div>
+</div>

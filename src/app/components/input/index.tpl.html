@@ -1,0 +1,22 @@
+<div class="kkb-input">
+    <div class="text" v-if="config.subType === 'textArea'">
+        <textarea
+            :placeholder="field.placeHolder"
+            v-model="field.name"
+            @blur="onInputBlur"> 
+        </textarea>
+    </div>
+    <div class="text" v-else>
+        <input type="text"
+            :placeholder="field.placeHolder"
+            :style="inputStyle"
+            v-model="field.name"
+            @blur="onInputBlur">
+        <i aria-hidden="true" class="fa" :class="field.icon"></i>
+        <div class="input-info" v-if="error.invalid">
+            <div class="info-validation">
+                <span>{{error.message}}</span>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+#course-platform {
+    .description {
+        margin: 0;
+        font-size: .32rem;
+        line-height: 1.692308;
+        color: #a1a3a7;
+        text-align: left;
+        font-weight: 600;
+    }
+    .line-through {
+        display: block;
+        border-left: 2rem solid #ddd;
+        border-right: 2rem solid #ddd;
+        font-size: .32rem;
+        line-height: 1px;
+        text-align: center;
+        padding: 0;
+        margin: .5rem .3rem;
+    }
+}

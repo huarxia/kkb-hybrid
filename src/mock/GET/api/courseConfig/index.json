@@ -1,0 +1,537 @@
+{
+    "status": 0,
+    "statusInfo": "成功",
+    "data": {
+        "components": [
+            {
+                "type": "slideShow",
+                "fields": {
+                    "field1": {
+                        "title": "详情页头图",
+                        "field": "courseHeaderImg",
+                        "style": {
+                            "height": "3.5rem"
+                        }
+                    }
+                }
+            },
+            {
+                "type": "tabControl",
+                "fields": {
+                    "field1": {
+                        "title": "课程详情页tab选项卡",
+                        "field": "tabControl",
+                        "fixed": true,
+                        "components": {
+                            "tabTb": [
+                                {
+                                    "id": "1",
+                                    "text": "课程大纲"
+                                },
+                                {
+                                    "id": "2",
+                                    "text": "课程介绍"
+                                },
+                                {
+                                    "id": "3",
+                                    "text": "咨询",
+                                    "kefu": {
+                                        "kefuHref": "http://kefu8.kuaishang.com.cn/bs/im.htm?cas=30989___418723&fi=35187&ism=1&sText=GaoXiaoBang&ref=H5"
+                                    }
+                                }
+                            ],
+                            "tabTd": [
+                                {
+                                    "value": "1",
+                                    "components": [
+                                        {
+                                            "type": "courseBasics",
+                                            "fields": {
+                                                "field1": {
+                                                    "title": "iOS开发工程师",
+                                                    "field": "courseBasics"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "courseDescription",
+                                            "fields": {
+                                                "field1": {
+                                                    "title": "课程描述",
+                                                    "icon": "fa-edit",
+                                                    "field": "courseDescription"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "courseOutline",
+                                            "fields": {
+                                                "field1": {
+                                                    "title": "课程大纲",
+                                                    "icon": "fa-list",
+                                                    "field": "courseOutline",
+                                                    "components": [
+                                                        {
+                                                            "type": "courseSection"
+                                                        },
+                                                        {
+                                                            "type": "courseSection"
+                                                        },
+                                                        {
+                                                            "type": "courseSection"
+                                                        }
+                                                    ],
+                                                    "getData": {
+                                                        "url": "/courses/24/section",
+                                                        "params": [
+                                                            "courseId"
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "value": "2",
+                                    "components": [
+                                        {
+                                            "type": "coursePlatform",
+                                            "fields": {
+                                                "field1": {
+                                                    "title": "课程平台介绍",
+                                                    "field": "coursePlatform"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "courseAdvantage",
+                                            "fields": {
+                                                "field1": {
+                                                    "title": "课程平台优势",
+                                                    "field": "courseAdvantage"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "courseStudyWay",
+                                            "fields": {
+                                                "field1": {
+                                                    "title": "课程学习平台",
+                                                    "field": "courseStudyWay",
+                                                    "components": [
+                                                        {
+                                                            "type": "courseStudyIcon",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "课程icon",
+                                                                    "field": "courseStudyIcon1",
+                                                                    "icon": "fa-paper-plane-o",
+                                                                    "fieldStyle": {
+                                                                        "background": "#74c75d"
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "courseStudyIcon",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "课程icon",
+                                                                    "field": "courseStudyIcon2",
+                                                                    "icon": "fa-comments-o",
+                                                                    "fieldStyle": {
+                                                                        "background": "#5fb8f2"
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "courseStudyIcon",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "课程icon",
+                                                                    "field": "courseStudyIcon3",
+                                                                    "icon": "fa-line-chart",
+                                                                    "fieldStyle": {
+                                                                        "background": "#ffa668"
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "courseStudyIcon",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "课程icon",
+                                                                    "field": "courseStudyIcon4",
+                                                                    "icon": "fa-mobile-phone",
+                                                                    "fieldStyle": {
+                                                                        "background": "#b186bc"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "courseTeacher",
+                                            "fields": {
+                                                "field1": {
+                                                    "title": "优秀教师",
+                                                    "field": "courseTeacher"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "courseStepBox",
+                                            "fields": {
+                                                "field1": {
+                                                    "title": "学习历程",
+                                                    "field": "courseStepBox",
+                                                    "components": [
+                                                        {
+                                                            "type": "courseStep",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "",
+                                                                    "field": "courseStep1",
+                                                                    "style": {
+                                                                        "color": "#ffb756"
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "courseStep",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "",
+                                                                    "field": "courseStep2",
+                                                                    "style": {
+                                                                        "color": "#48c490"
+                                                                    },
+                                                                    "components": [
+                                                                        {
+                                                                            "type": "courseStepList",
+                                                                            "fields": {
+                                                                                "field1": {
+                                                                                    "title": "学习历程第二步",
+                                                                                    "field": "courseStep2List1",
+                                                                                    "icon": "fa-th-large",
+                                                                                    "style": {
+                                                                                        "iconColor": "#74c75d"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type": "courseStepList",
+                                                                            "fields": {
+                                                                                "field1": {
+                                                                                    "title": "学习历程第二步",
+                                                                                    "field": "courseStep2List2",
+                                                                                    "icon": "fa-trophy",
+                                                                                    "style": {
+                                                                                        "iconColor": "#74c75d"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "courseStep",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "",
+                                                                    "field": "courseStep3",
+                                                                    "style": {
+                                                                        "color": "#48c4ac"
+                                                                    },
+                                                                    "components": [
+                                                                        {
+                                                                            "type": "courseStepList",
+                                                                            "fields": {
+                                                                                "field1": {
+                                                                                    "title": "学习历程第三步",
+                                                                                    "field": "courseStep3List1",
+                                                                                    "icon": "fa-th-large",
+                                                                                    "style": {
+                                                                                        "iconColor": "#00bfc7"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type": "courseStepList",
+                                                                            "fields": {
+                                                                                "field1": {
+                                                                                    "title": "学习历程第三步",
+                                                                                    "field": "courseStep3List2",
+                                                                                    "icon": "fa-trophy",
+                                                                                    "style": {
+                                                                                        "iconColor": "#00bfc7"
+                                                                                    },
+                                                                                    "kefu": {
+                                                                                        "kefuHref": "http://kefu8.kuaishang.com.cn/bs/im.htm?cas=30989___418723&fi=35187&ism=1&ref=H5&sText=js_baozhang"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type": "courseConsultBtn",
+                                                                            "fields": {
+                                                                                "field1": {
+                                                                                    "title": "咨询最新开班计划 >",
+                                                                                    "field": "courseStep3ConsultBtn",
+                                                                                    "style": {
+                                                                                        "background-color": "#e43e3e"
+                                                                                    },
+                                                                                    "kefu": {
+                                                                                        "kefuHref": "http://kefu8.kuaishang.com.cn/bs/im.htm?cas=30989___418723&fi=35187&ism=1&ref=H5&sText=js_baozhang"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type": "courseResultList",
+                                                                            "fields": {
+                                                                                "field1": {
+                                                                                    "title": "resultList",
+                                                                                    "field": "resultList"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "courseStep",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "",
+                                                                    "field": "courseStep4",
+                                                                    "style": {
+                                                                        "color": "#1aa3ee"
+                                                                    },
+                                                                    "components": [
+                                                                        {
+                                                                            "type": "courseEmploymentPic",
+                                                                            "fields": {
+                                                                                "field1": {
+                                                                                    "title": "学习历程第四步图片",
+                                                                                    "field": "courseEmploymentPic"
+                                                                                }
+                                                                            }
+                                                                        },
+                                                                        {
+                                                                            "type": "courseStepList",
+                                                                            "fields": {
+                                                                                "field1": {
+                                                                                    "title": "学习历程第四步",
+                                                                                    "field": "courseStep4List1",
+                                                                                    "icon": "fa-shield",
+                                                                                    "style": {
+                                                                                        "iconColor": "#00a5ea"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "courseStep",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "",
+                                                                    "field": "courseStep5",
+                                                                    "style": {
+                                                                        "color": "#1aa3ee"
+                                                                    },
+                                                                    "components": [
+                                                                        {
+                                                                            "type": "courseConsultBtn",
+                                                                            "fields": {
+                                                                                "field1": {
+                                                                                    "title": "免费定制学习规划 >",
+                                                                                    "field": "courseStep5ConsultBtn",
+                                                                                    "style": {
+                                                                                        "background-color": "#e43e3e"
+                                                                                    },
+                                                                                    "kefu": {
+                                                                                        "kefuHref": "http://kefu8.kuaishang.com.cn/bs/im.htm?cas=30989___418723&fi=35187&ism=1&ref=H5&sText=js_baozhang"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "courseJobSecuriy",
+                                            "fields": {
+                                                "field1": {
+                                                    "title": "课程平台介绍",
+                                                    "field": "courseJobSecuriy",
+                                                    "components": [
+                                                        {
+                                                            "type": "courseConsultBtn",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "了解如何保障就业 >",
+                                                                    "field": "courseConsultBtnjob",
+                                                                    "style": {
+                                                                        "background-color": "#0cc5cf"
+                                                                    },
+                                                                    "kefu": {
+                                                                        "kefuHref": "http://kefu8.kuaishang.com.cn/bs/im.htm?cas=30989___418723&fi=35187&ism=1&ref=H5&sText=js_baozhang"
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "courseEmploymentPic",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "就业协议图片",
+                                                                    "field": "courseEmploymentPicJob"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "courseSignup",
+                                            "fields": {
+                                                "field1": {
+                                                    "title": "报名",
+                                                    "field": "courseSignup",
+                                                    "components": [
+                                                        {
+                                                            "type": "courseSignupItem",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "报名就业班",
+                                                                    "field": "courseSignupItemIos",
+                                                                    "bodyStyle": {
+                                                                        "border": "1px solid #ffb6bb"
+                                                                    },
+                                                                    "components": [
+                                                                        {
+                                                                            "type": "courseConsultBtn",
+                                                                            "fields": {
+                                                                                "field1": {
+                                                                                    "title": "即刻报名 >",
+                                                                                    "field": "promptlyCourseConsultBtn",
+                                                                                    "style": {
+                                                                                        "background-color": "#e43e3e"
+                                                                                    },
+                                                                                    "kefu": {
+                                                                                        "kefuHref": "http://kefu8.kuaishang.com.cn/bs/im.htm?cas=30989___418723&fi=35187&ism=1&ref=H5&sText=js_baozhang"
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "type": "courseDiscount",
+                                            "fields": {
+                                                "field1": {
+                                                    "title": "优惠专区",
+                                                    "field": "courseDiscount",
+                                                    "components": [
+                                                        {
+                                                            "type": "courseDiscountItem",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "大学生助学计划",
+                                                                    "field": "courseDiscountItem1",
+                                                                    "style": {
+                                                                        "color": "#ffca36"
+                                                                    },
+                                                                    "kefu": {
+                                                                        "text": "立即申请 >",
+                                                                        "kefuHref": "http://kefu8.kuaishang.com.cn/bs/im.htm?cas=30989___418723&fi=35187&ism=1&ref=H5&sText=js_fenqi"
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "courseDiscountItem",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "免就业特惠",
+                                                                    "field": "courseDiscountItem2",
+                                                                    "style": {
+                                                                        "color": "#1aa3ee"
+                                                                    },
+                                                                    "kefu": {
+                                                                        "text": "立即申请 >",
+                                                                        "kefuHref": "http://kefu8.kuaishang.com.cn/bs/im.htm?cas=30989___418723&fi=35187&ism=1&ref=H5&sText=js_fenqi"
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "type": "courseDiscountItem",
+                                                            "fields": {
+                                                                "field1": {
+                                                                    "title": "分期助学",
+                                                                    "field": "courseDiscountItem3",
+                                                                    "style": {
+                                                                        "color": "#ff4855"
+                                                                    },
+                                                                    "kefu": {
+                                                                        "text": "立即申请 >",
+                                                                        "kefuHref": "http://kefu8.kuaishang.com.cn/bs/im.htm?cas=30989___418723&fi=35187&ism=1&ref=H5&sText=js_fenqi"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "type": "consultBar",
+                "fields": {
+                    "field1": {
+                        "title": "客服咨询bar",
+                        "field": "consultBar",
+                        "auditionKey": "courseOutline",
+                        "studyModule": "subs"
+                    }
+                }
+            }
+        ]
+    }
+}

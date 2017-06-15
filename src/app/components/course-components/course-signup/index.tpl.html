@@ -1,0 +1,19 @@
+<div id="signup" class="tab-control-box course-introduce">
+    <h3 class="signup-h3">{{data.title}}</h3>
+    <p class="description">
+        <template v-if="data.markedRed">
+            {{data.descriptionPrev}}
+            <span class="markedRed">{{data.markedRed}}</span>
+            {{data.descriptionPrev}}
+        </template>
+        <template v-else>
+            {{data.description}}
+        </template>
+    </p>
+    <component v-for="item in items"
+        :is="item.type"
+        :key="item.type"
+        :config="item"
+        :binding-data="bindingData">
+    </component>
+</div>

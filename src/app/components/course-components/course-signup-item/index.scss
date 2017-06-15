@@ -1,0 +1,54 @@
+#course-singup-item {
+    position: relative;
+    margin: .4rem auto 0;
+    padding: 0;
+    width: 6.6rem;
+    max-width: 8.4rem;
+    overflow: hidden;
+    border-radius: .18rem;
+    .header {
+        padding: .12rem 0;
+        height: .8rem;
+        text-align: center;
+        line-height: 0;
+        font-size: 0;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .price {
+            margin-right: .1rem;
+            font-size: .54rem;
+            line-height: 1.4;
+            color: #fff;
+            font-weight: 900;
+            vertical-align: middle;
+        }
+        .tip-des {
+            font-size: .28rem;
+            line-height: 1.5;
+            color: #fff;
+            vertical-align: middle;
+            font-weight: 600;
+        }
+    }
+    .body {
+        text-align: center;
+        color: #a1a3a7;
+        padding-bottom: .3rem;
+        border-top: none;
+        border-bottom-left-radius: .18rem;
+        border-bottom-right-radius: .18rem;
+        .remark {
+            font-size: .3rem;
+            margin-bottom: 0;
+        }
+    }
+    .corneMark {
+        position: absolute;
+        top: 0;
+        right: -.1rem;
+        z-index: 2;
+        width: 1.43rem;
+        max-width: 216px;
+    }
+}

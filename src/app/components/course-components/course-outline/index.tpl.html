@@ -1,0 +1,13 @@
+<div id="course-outline" class="tab-control-box">
+    <h3 class="outline-h3">
+        <i aria-hidden="true" class="fa"
+            :class="data.icon"></i>
+        {{data.title}}
+    </h3>
+    <component v-for="item in items"
+            :is="item.type"
+            :key="item.type"
+            :binding-data="item">
+            {{item.type}}
+    </component>
+</div>

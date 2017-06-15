@@ -1,0 +1,15 @@
+{
+	"status": 0,
+	"statusInfo": "成功",
+	"data": {
+		"trueName": "花夏",
+		"mobile": "18888888888",
+		"qq": "769904046",
+		"studyLevel": 2,
+		"buyType": 3,
+		"signup": 2,
+		"price": "",
+		"studentTarget": "在校生想顺利就业",
+		"studentBasis": "完全是行业小白"
+	}
+}

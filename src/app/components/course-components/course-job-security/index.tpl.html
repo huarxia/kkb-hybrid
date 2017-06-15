@@ -1,0 +1,10 @@
+<div id="course-job-security" class="tab-control-box course-introduce">
+    <h3 class="job-security-h3">{{data.title}}</h3>
+    <p class="description">{{data.description}}</p>
+    <component v-for="item in items"
+        :is="item.type"
+        :key="item.type"
+        :config="item"
+        :binding-data="bindingData">
+    </component>
+</div>

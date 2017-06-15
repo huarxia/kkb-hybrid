@@ -1,0 +1,149 @@
+#order-checkout {
+    .pull-right {
+        float: right;
+    }
+    .red {
+        color: #f02d36!important;
+    }
+    header {
+        text-align: center;
+        background-color: #fff;
+        line-height: 1rem;
+        h1 {
+            color: #3f3939;
+            font-size: .4rem;
+            margin: 0;
+            font-weight: 500;
+        }
+    }
+    .panel {
+        padding: 0 .3rem;
+        margin-top: .3rem;
+        background-color: #fff;
+        text-align: left;
+        font-size: .8rem;
+        span {
+            color: #3f3939;
+            display: inline-block;
+            font-size: .32rem;
+            vertical-align: middle;
+        }
+        span:first-child {
+            width: 25%;
+            font-size: .34rem;
+        }
+        span:last-child {
+            color: #706969;
+        }
+    }
+    .panel-box {
+        span:last-child {
+            height: 1.2rem;
+            line-height: 1.2rem;
+        }
+    }
+    .student-info {
+        ul {
+            list-style: none;
+            color: #3f3939;
+            font-size: .34rem;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+            li {
+                margin: 0;
+                padding: .3rem 0;
+            }
+            li:not(:first-child) {
+                border-top: 1px solid #eee;
+            }
+        }
+    }
+    .course {
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+        img {
+            width: 2.5rem;
+            float: left;
+            margin-right: .3rem;
+        }
+        .course-info {
+            p {
+                font-size: .32rem;
+                color: #3f3939;
+                text-align: left;
+                margin-top: 0;
+            }
+        }
+    }
+    .coupon-code {
+        span:first-child {
+            -webkit-box-flex: 0;
+            -ms-flex: none;
+            flex: none;
+        }
+        span:last-child {
+            float: right;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-flex: 1;
+            flex: 1;
+        }
+        input {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            text-align: right;
+            height: 1.2rem;
+            line-height: 1.2rem;
+            font-size: .32rem;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0;
+            border: 0;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            outline: 0;
+        }
+    }
+    .spec-price {
+        
+    }
+    .bottom-bar {
+        margin-top: .3rem;
+        background-color: #fff;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        line-height: .9rem;
+        border-top: 1px solid rgba(204, 204, 204, .3);
+        .panel-box {
+            span:first-child {
+                width: auto;
+            }
+        }
+        .final-price {
+            float: left;
+            margin-top: 0;
+            font-size: 0;
+            span:last-child {
+                height: 1rem;
+                line-height: 1rem;
+            }
+        }
+        .pay {
+            float: right;
+            line-height: 1rem;
+            background-color: #f02d36;
+            color: #fff;
+            width: 2.6rem;
+            text-align: center;
+            font-size: .32rem;
+            font-weight: 500;
+            text-decoration: none;
+        }
+    }
+}

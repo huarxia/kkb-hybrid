@@ -1,0 +1,50 @@
+.course-discount-item {
+    padding: .3rem;
+    div {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .pic {
+        width: 1.86rem;
+        text-align: center;
+        line-height: 0;
+        img {
+            width: 100%;
+            max-width: 3.8rem;
+        }
+    }
+    .info-box {
+        text-align: left;
+        padding-left: .52rem;
+        width: 4.2rem;
+        h4 {
+            font-size: .32rem;
+            line-height: 1.033333;
+            font-weight: 900;
+            padding-left: 0;
+            margin-bottom: .1rem;
+            padding-bottom: 0;
+        }
+        .description {
+            margin-top: .03rem;
+            margin-bottom: .15rem;
+            font-size: .26rem;
+            line-height: 1.3913;
+            color: #a1a3a7;
+            text-align: left;
+            font-weight: 600;
+        }
+        .kefu {
+            display: block;
+            width: 1.6rem;
+            height: .4rem;
+            line-height: .4rem;
+            font-size: .26rem;
+            text-align: center;
+            border-radius: 1rem;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+}

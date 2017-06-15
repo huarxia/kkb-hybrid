@@ -1,0 +1,11 @@
+<div id="signup">
+   <component v-for="item in items"
+            :is="item.type"
+            :key="item.type"
+            :config="item.config"
+            :binding-data="item.bindingData">
+    </component>
+    <div class="button-commit">
+    	<button class="commit" @click="commit">立即报名</button>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+/**
+ * @file    gulp build 任务
+ * @authors 花夏 (bliu@huikedu.com)
+ * 
+ * @version 1.0.0
+ * @date    2017-04-24 14:24:05
+ */
+
+var gulp         = require('gulp');
+var gulpSequence = require('gulp-sequence');
+
+gulp.task('build', function (cb) {
+    // require进来即可
+    var buildConfig = require('../config/build');
+});

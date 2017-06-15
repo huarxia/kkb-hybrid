@@ -1,0 +1,74 @@
+.kkb-select2 {
+    padding: 0 .3rem;
+    margin-top: .5rem;
+    position: relative;
+    .select2 {
+        width: 100%!important;
+        display: block;
+        font-size: .32rem;
+        position: relative;
+        .select2-selection {
+            padding: .12rem 0;
+            line-height: 1.42857;
+            height: auto;
+            outline: none;
+            border-color: #ccc;
+        }
+    }
+    .fa{
+        position: absolute;
+        left: .16rem;;
+        top: 50%;
+        transform: translate(0, -50%);
+        font-size: .52rem;
+    }
+    .select2-container .select2-selection--single .select2-selection__rendered {
+         padding-left: .8rem;
+    }
+    .select2-info {
+        position: absolute;
+        bottom: -.48rem;
+        right: 0;
+        font-size: .28rem;
+        color: red;
+    }
+}
+.select2-search {
+    font-size: .28rem;
+}
+.select2-results__options {
+    li {
+        font-size: .28rem;
+    }
+}
+.select2-selection__rendered {
+    text-align: left;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 3px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    font-size: .32rem;
+    padding: .16rem;
+    background-color: white;
+    background-image: none;
+    border-radius: .08rem;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+// .select2-container--default .select2-search--inline .select2-search__field {
+//     padding-left: 1rem!important;
+// }
+.select2-container--default .select2-search--dropdown .select2-search__field:focus{
+    border-color: rgb(102, 175, 233);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    color: #333;
+    font-size: .32rem;
+}
+.kkb-select2 .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding-left: .75rem;
+}

@@ -1,0 +1,25 @@
+{
+    "status": 0,
+    "statusInfo": "成功",
+    "data": {
+        "name": "web前端开发",
+        "pic": "http://i.kaikeba.com/19930376525283229814-576x324?imageslim",
+        "bigpic": "http://i.kaikeba.com/19930376532695124114-760x260?imageslim",
+        "desc": "web前端开发-就业班",
+        "title": "",
+        "keywords": "",
+        "category": "IT软件",
+        "description": "",
+        "period": 5,
+        "publishTime": "0",
+        "occupyPrice": "8999.99",
+        "status": null,
+        "occupyPriceSpec": "8999.99",
+        "hours": 0,
+        "longtime": 0,
+        "custom1": "大幅",
+        "custom2": "大幅",
+        "custom3": "大幅",
+        "lecture": "李老师 王老师"
+    }
+}

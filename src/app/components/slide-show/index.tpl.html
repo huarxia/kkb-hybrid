@@ -1,0 +1,18 @@
+<mt-swipe 
+    id="slide-show"
+    :auto="3820"
+    :showIndicators="showIndicators"
+    :style="styleConfig.slideShowStyle">
+    <mt-swipe-item class="slide" v-for="item in data" :key="item.href">
+        <a :href="item.href" v-if="item.href">
+            <img :src="item.src">
+        </a>
+        <img :src="item.src" v-else>
+        <h3
+            class="slide-h3"
+            v-if="item.title"
+            :style="styleConfig.titleStyle">
+                {{item.title.text}}
+        </h3>
+    </mt-swipe-item>
+</mt-swipe>

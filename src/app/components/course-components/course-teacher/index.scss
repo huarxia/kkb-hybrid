@@ -1,0 +1,36 @@
+#course-teacher {
+    .item {
+        display: table;
+        table-layout: fixed;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .pic {
+        width: 2rem;
+        padding-top: .3rem;
+        margin-bottom: 0;
+        display: table-cell;
+        vertical-align: middle;
+        img {
+            width: 100%;
+            border-radius: 50%;
+        }
+    }
+    .info {
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0 0 0 .3rem;
+        .name {
+            margin: 0;
+            padding: 0;
+            color: #0cc5cf;
+            font-size: .32rem;
+        }
+        .description {
+            margin-top: .2rem;
+            margin-bottom: 0;
+            font-size: .3rem;
+            text-align: left;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+<div class="kkb-select2">
+    <div class="select2">
+        <select id="id_label_single" :multiple="selectConfig.multiple === 'multiple'"></select>
+        <i aria-hidden="true" class="fa"
+        :class="selectConfig.icon" v-if="selectConfig.icon"></i>
+        <div class="select2-info" v-if="error.invalid">
+            <div class="select2-validation">
+                <span>{{error.message}}</span>
+            </div>
+        </div>
+    </div>
+</div>

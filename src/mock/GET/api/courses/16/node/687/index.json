@@ -1,0 +1,68 @@
+{
+    "status": 0,
+    "statusInfo": "success",
+    "data": {
+        "title": "1-1 Mac基本操作",
+        "description": "本章主要介绍Mac基本操作，内容包括苹果公司的发展史及产品线、Mac系统演化及基本操作、iOS系统的演化以及IDE开发环境。",
+        "free": "1",
+        "nodes": [
+            {
+                "nodeid": 4625,
+                "title": "1. 苹果公司发展史",
+                "type": "video",
+                "free": 1,
+                "vid": "4c33c1d451ffceec521526bc41de47ae_4",
+                "duration": "05:19",
+                "filesize": 13025122
+            },
+            {
+                "nodeid": 4626,
+                "title": "2. 苹果公司产品线",
+                "type": "video",
+                "free": 1,
+                "vid": "4c33c1d451071a479a5d14294b7fbf9c_4",
+                "duration": "06:07",
+                "filesize": 15253203
+            },
+            {
+                "nodeid": 4627,
+                "title": "3. Mac系统演化",
+                "type": "video",
+                "free": 1,
+                "vid": "4c33c1d45160ccb7d55c380440d47653_4",
+                "duration": "03:02",
+                "filesize": 7807332
+            },
+            {
+                "nodeid": 4628,
+                "title": "4. Mac的基本操作",
+                "type": "video",
+                "free": 1,
+                "vid": "4c33c1d4515cd9901e683064f6064e6f_4",
+                "duration": "18:34",
+                "filesize": 45897995
+            },
+            {
+                "nodeid": 5090,
+                "title": "5. iOS系统演化",
+                "type": "video",
+                "free": 1,
+                "vid": "4c33c1d451793accf42f568ac6944a0d_4",
+                "duration": "04:01",
+                "filesize": 10286230
+            },
+            {
+                "nodeid": 5091,
+                "title": "6. IDE开发环境介绍",
+                "type": "video",
+                "free": 1,
+                "vid": "4c33c1d451550cdc3c4f8bda06ff3e8c_4",
+                "duration": "04:45",
+                "filesize": 12090263
+            }
+        ],
+        "lectures_mini": [
+            "刘伟"
+        ]
+    }
+}

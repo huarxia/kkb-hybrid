@@ -1,0 +1,49 @@
+.kkb-input {
+    padding: 0 .3rem;
+    flex: 1 1 0;
+    margin-top: .5rem;
+    .text {
+        position: relative;
+        input,
+        textarea {
+            width: 100%;
+            display: block;
+            font-size: .32rem;
+            padding: .16rem;
+            background-color: rgb(255, 255, 255);
+            background-image: none;
+            border: 1px solid rgb(204, 204, 204);
+            border-radius: .08rem;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+            color: rgb(85, 85, 85);
+            transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+        }
+        textarea {
+            resize: none;
+            height: 2rem;
+        }
+        input:focus,
+        textarea:focus {
+            border-color: rgb(102, 175, 233);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+            outline: 0 none;
+        }
+        input {
+            line-height: 1.42857;
+        }
+        .fa {
+            position: absolute;
+            left: .2rem;
+            top: 50%;
+            transform: translate(0, -50%);
+            font-size: .4rem;
+        }
+        .input-info {
+            position: absolute;
+            bottom: -.48rem;;
+            right: 0;
+            font-size: .28rem;
+            color: red;
+        }
+    }
+}

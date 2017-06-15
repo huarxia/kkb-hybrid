@@ -1,0 +1,234 @@
+{
+    "status": 0,
+    "statusInfo": "success",
+    "data": {
+        "courseHeaderImg": [
+            {
+                "src": "http://h5.kaikeba.com/public/images/cover/top_cover_5.png",
+                "href": ""
+            }
+        ],
+        "courseBasics": [
+            {
+                "title": "学习周期 ：",
+                "description": "32天",
+                "style": {
+                    "color": "#e43e3e"
+                }
+            },
+            {
+                "title": "所属行业 ：",
+                "description": "技术学院"
+            },
+            {
+                "title": "课程讲师 ：",
+                "description": "薛攀攀 刘伟"
+            },
+            {
+                "title": "保就业班 ：",
+                "description": "全款特惠￥8999.00",
+                "descriptionSec": "原价￥10688.00",
+                "style": {
+                    "color": "#e43e3e"
+                },
+                "descriptionSecStyle": {
+                    "color": "#b8b1b2",
+                    "text-decoration": "line-through"
+                }
+            }
+        ],
+        "courseDescription": {
+            "detail": "作为一名专业的iOS开发工程师，你应该深感自豪。iOS系统是这个时代的极致之作，能真正让你用敏捷开发铸造风靡全球的出色产品。来自无限互联的资深高级工程师兼教学大神，将通过上百个iOS经典实战案例，激发你最深处的能量与渴望。",
+            "tag": [
+                "100+经典案例剖析",
+                "7+商业项目实战",
+                "20+专业课题练习"
+            ]
+        },
+        "coursePlatform": {
+            "title": "品质职业教育，源自开课吧。",
+            "description": "这是一次史无前例的伟大创新，我们将国内技术、设计、产品教育领域的顶级资源进行了深度融合并重塑。从此，享受高品质的教学，有了更美妙的方法。",
+            "courseTagTitle": "6大高薪职业课程",
+            "tag": [
+                "产品经理",
+                "产品运营",
+                "交互设计",
+                "Android开发",
+                "iOS开发",
+                "Web开发"
+            ]
+        },
+        "courseAdvantage": {
+            "title": "热门指数TOP1，价值程度No.1。",
+            "description": "毫无疑问，iOS已然是开发领域舍我其谁的主角。主角的定义在于，薪资、福利、前途、名誉皆是名列前茅。",
+            "imgSrc": "http://i.kaikeba.com/2410df6501ae440676d09f9516dd1bb5?imageslim"
+        },
+        "courseStudyWay": {
+            "title": "领先行业的智慧在线学习平台"
+        },
+        "courseStudyIcon1": {
+            "title": "简单学习",
+            "description": "跟着计划一步一步学"
+        },
+        "courseStudyIcon2": {
+            "title": "名师辅导",
+            "description": "直接与名师1对1交流"
+        },
+        "courseStudyIcon3": {
+            "title": "智慧计划",
+            "description": "学习节奏轻松掌握"
+        },
+        "courseStudyIcon4": {
+            "title": "离线学习",
+            "description": "地铁、被窝、蹲坑都能学"
+        },
+        "courseTeacher": {
+            "title": "真正优秀的老师",
+            "item": [
+                {
+                    "img": "http://i.kaikeba.com/fe20a97ebd5c56926b379d3a62f57de5?imageslim",
+                    "name": "汪鸿俊",
+                    "description": "国内第一电子阅读神器iReader作者(5 亿用户)，先后在首信、亚信、掌阅等团队主导iOS开发工作。"
+                },
+                {
+                    "img": "http://i.kaikeba.com/abd4cd4931c96b8bce52c55dc3b5d703?imageslim",
+                    "name": "郑卿吾",
+                    "description": "资深iOS培训导师，已培养近千名IT人才进入全国各大知名互联网企业。"
+                },
+                {
+                    "img": "http://i.kaikeba.com/692e3fbda48049ba7b7ee08e68d00541?imageslim",
+                    "name": "刘伟",
+                    "description": "资深iOS培训导师，在GitHub上发布有数个开源类库。"
+                },
+                {
+                    "img": "http://i.kaikeba.com/b028715a6e3579a686828be9db600792?imageslim",
+                    "name": "薛攀攀",
+                    "description": "腾讯高级工程师。拥有手机QQ、InvestMe等多款社交、金融产品完整开发经验。"
+                }
+            ]
+        },
+        "courseStepBox": {
+            "title": "4个月让你成为iOS开发工程师",
+            "description": "真正改变30000互联网从业者的学习方式"
+        },
+        "courseStep1": {
+            "title": "0基础"
+        },
+        "courseStep2": {
+            "title": "轻松入门",
+            "time": "2个月左右"
+        },
+        "courseStep2List1": {
+            "title": "学习方式",
+            "list": [
+                "观看高质量课程视频",
+                "“小书童助学系统”帮你把控学习进度"
+            ]
+        },
+        "courseStep2List2": {
+            "title": "学习结果",
+            "list": [
+                "构建专业知识",
+                "掌握常用工具",
+                "见证大量真实案例",
+                "为进入实训期打好基础"
+            ]
+        },
+        "courseStep3": {
+            "title": "商业实战",
+            "time": "2个月左右"
+        },
+        "courseStep3List1": {
+            "title": "学习方式",
+            "list": [
+                "7场实战练习",
+                "实战练习对应的作业",
+                "导师1对1指导作业",
+                "1周1次直播课难点辅导"
+            ]
+        },
+        "courseStep3List2": {
+            "title": "学习结果",
+            "list": [
+                "获得实战经验",
+                "获得属于自己的商业级作品",
+                "获得毕业证书与能力图谱"
+            ]
+        },
+        "resultList": [
+            {
+                "img": "http://i.kaikeba.com/aaaccac09ffca94d0c891a6a33cb8758?imageslim",
+                "description": "直播互动"
+            },
+            {
+                "img": "http://i.kaikeba.com/c2521200c80981f2f55132e34adcbd89?imageslim",
+                "description": "师生互评"
+            },
+            {
+                "img": "http://i.kaikeba.com/30e7bb4787c0fa3cb1620b5cfd7901cf?imageslim",
+                "description": "班级排名"
+            },
+            {
+                "img": "http://i.kaikeba.com/d71076e2223fc38bad1960a45f580b2a?imageslim",
+                "description": "毕业证书"
+            },
+            {
+                "img": "http://i.kaikeba.com/89d1b5b80314dd3aa3f2c5a59b725f08?imageslim",
+                "description": "毕业总评"
+            }
+        ],
+        "courseStep4": {
+            "title": "极速就业"
+        },
+        "courseStep4List1": {
+            "title": "服务承诺",
+            "list": [
+                "100%对口就业，直到就业为止。",
+                "获得毕业证书与能力图谱"
+            ]
+        },
+        "courseEmploymentPic": {
+            "img": "http://h5.kaikeba.com/public/images/img_coursedetail_xxlc_jy@3x.png"
+        },
+        "courseStep5": {
+            "title": "成为一名iOS开发工程师"
+        },
+        "courseJobSecuriy": {
+            "title": "入学即签保就业协议",
+            "description": "保障对口就业，保障正式入职"
+        },
+        "courseEmploymentPicJob": {
+            "img": "http://i.kaikeba.com/afc339d11c39e49e6b8036d52631b3c5?imageslim"
+        },
+        "courseSignup": {
+            "title": "我要报名",
+            "description": "真正懂你的iOS开发工程师就业班",
+            "markedRed": "iOS开发工程师"
+        },
+        "courseSignupItemIos": {
+            "price": "8999.00",
+            "tipDes": "全款特惠",
+            "remark": "权威保障高薪就业</br>录播＋直播＋名师实训（总价10688)",
+            "corneMark": "http://h5.kaikeba.com/public/images/img_coursedetail_yhbq@3x.png",
+            "headerBg": "http://h5.kaikeba.com/img/signup/img_coursedetail_yhbg@3x.png"
+        },
+        "courseDiscount": {
+            "title": "优惠专区"
+        },
+        "courseDiscountItem1": {
+            "img": "http://h5.kaikeba.com/public/images/img_coursedetail_yh1@3x.png",
+            "title": "大学生助学计划",
+            "description": "大学生助学福利，专属折扣。"
+        },
+        "courseDiscountItem2": {
+            "img": "http://h5.kaikeba.com/public/images/img_coursedetail_yh2@3x.png",
+            "title": "免就业特惠",
+            "description": "无需就业服务，申请优惠。"
+        },
+        "courseDiscountItem3": {
+            "img": "http://h5.kaikeba.com/public/images/img_coursedetail_yh3@3x.png",
+            "title": "分期助学",
+            "description": "官方补贴分期利息，无压力轻松入学"
+        }
+    }
+}

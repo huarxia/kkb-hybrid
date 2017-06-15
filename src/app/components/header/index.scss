@@ -1,0 +1,18 @@
+#header {
+    height: 1.02rem;
+    background-color: #fff;
+    align-items: center;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    line-height: 1;
+    padding: 0 10px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    .logo {
+        display: block;
+        height: .47em;
+        margin: auto;
+    }
+}

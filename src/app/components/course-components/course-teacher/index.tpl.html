@@ -1,0 +1,13 @@
+<div id="course-teacher" class="tab-control-box course-introduce">
+    <h3 class="course-teacher-h3">{{data.title}}</h3>
+    <div class="item" v-for="item in data.item">
+        <div class="pic">
+            <img
+                :src="item.img">
+        </div>
+        <div class="info">
+            <h4 class="name">{{item.name}}</h4>
+            <p class="description">{{item.description}}</p>
+        </div>
+    </div>
+</div>

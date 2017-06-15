@@ -1,0 +1,26 @@
+<div id="tab-control">
+    <mt-navbar
+        v-model="selected"
+        :fixed="fixed"
+        ref="mint-navbar">
+        <mt-tab-item
+            v-for="item in tabTbConfig"
+            :id="item.id"
+            :key="item.id">
+            {{item.text}}
+        </mt-tab-item>
+    </mt-navbar>
+    <mt-tab-container v-model="selected">
+        <mt-tab-container-item
+            v-for="items in tabTdConfig"
+            :id="items.value"
+            :key="items.value">
+            <component v-for="item in items.components"
+                    :is="item.type"
+                    :key="item.type"
+                    :config="item"
+                    :binding-data="bindingData">
+            </component>
+        </mt-tab-container-item>
+    </mt-tab-container>
+</div>

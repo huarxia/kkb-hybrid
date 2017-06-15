@@ -1,0 +1,13 @@
+<div id="layout-box">
+    <h3>
+        {{field.title}}
+    </h3>
+    <div class="column flex">
+        <component v-for="item in items"
+                :is="item.type"
+                :key="item.type"
+                :data="item.data"
+                :fieldStyle="item.fieldStyle">
+        </component>
+    </div>
+</div>

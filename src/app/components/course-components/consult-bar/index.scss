@@ -1,0 +1,31 @@
+#consult-bar {
+    padding-bottom: .9rem;
+    .bar {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        overflow: hidden;
+        z-index: 50;
+        left: auto;
+        a {
+            width: 50%;
+            display: block;
+            height: .9rem;
+            font-size: .32rem;
+            line-height: .9rem;
+            color: #fff;
+            text-align: center;
+            font-weight: 700;
+            text-decoration: none;
+        }
+        .self {
+            background: #00aae5;
+        }
+        .sign {
+            background: #e43e3e;
+        }
+    }
+}
+div:has(> #consult-bar) {
+    background-color: red;
+}

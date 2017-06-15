@@ -1,0 +1,10 @@
+<dl class="course-step-list">
+    <dt class="title">
+        <i
+            class="fa"
+            :class="data.icon"
+            :style="data.iconStyle"></i>
+        <span class="text">{{data.title}}</span>
+    </dt>
+    <dd v-for="list in data.list">{{list}}</dd>
+</dl>

@@ -1,0 +1,309 @@
+{
+    "status": 0,
+    "statusInfo": "success",
+    "data": [
+        {
+            "id": 686,
+            "title": "C语言程序设计",
+            "description": "本阶段以C语言为基础，使学生掌握编程语言的基本语法。了解程序设计的基本结构以及函数和指针的运用，在此基础上熟悉各种基本数据类型以及数组、结构体等，熟练使用选择和循环等代码结构。",
+            "subs": [
+                {
+                    "subid": 687,
+                    "title": "Mac基本操作",
+                    "description": "本章主要介绍Mac基本操作，内容包括苹果公司的发展史及产品线、Mac系统演化及基本操作、iOS系统的演化以及IDE开发环境。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150305057423220-300x168",
+                    "period": 8,
+                    "v_total": 6,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "C语言基础一",
+                    "description": "本章围绕C语言的基础知识进行展开，教大家实现第一个C语言程序，主要知识点包括注释、变量、常量、修饰符、自动转换与强制转换等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150311387559075-300x168",
+                    "period": 1,
+                    "v_total": 7,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "C语言基础二",
+                    "description": "本章围绕运算符、流程语句及循环语句进行讲解，主要内容包括算数运算符、自增自减运算符、关系运算符、if－else语句、switch语句、while循环及for循环。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150309272915366-300x168",
+                    "period": 1,
+                    "v_total": 8,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "数组/函数/预处理",
+                    "description": "本章主要讲解数组、函数、预处理的应用，主要内容包括二维数组、字符串、常用函数、函数的递归调用、多个源文件开发及预处理指令等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150312567137425-300x168",
+                    "period": 1,
+                    "v_total": 8,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "指针",
+                    "description": "本章围绕指针进行展开，主要内容包括指针的概念、用途、指针与数组的区别、指针与字符串的区别、函数与指针的区别以及多重指针的学习等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150315904962688-300x168",
+                    "period": 1,
+                    "v_total": 7,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "结构体与枚举",
+                    "description": "本章围绕结构体和枚举进行展开，主要内容包括变量的作用域、变量的存储类型、static，extern与函数变量、结构体、枚举及typedef的使用等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150317009079223-300x168",
+                    "period": 1,
+                    "v_total": 8,
+                    "e_total": 0
+                }
+            ]
+        },
+        {
+            "id": 893,
+            "title": "iOS初级编程开发",
+            "description": "本阶段详细讲解UIKit框架的使用，以视图和视图控制器的概念作为基础，详解应用程序界面搭建的基本模块，并在此基础上讲解表视图等复杂视图的使用以及自动布局和故事板的使用。",
+            "subs": [
+                {
+                    "subid": 687,
+                    "title": "iOS开发入门",
+                    "description": "本章为iOS开发的入门学习，主要介绍iOS系统的架构、如何创建IOS App工程、App界面如何搭建、App图标及启动图片、main函数以及整个应用程序的生命周期。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150320125821415-300x168",
+                    "period": 1,
+                    "v_total": 7,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "视图与窗口",
+                    "description": "本章围绕视图与窗口进行展开，主要内容为UIKit 框架结构、视图与窗口的关系、UIWindow、UIScreen、UIView的使用以及iOS坐标系统变换等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150321812048674-300x168",
+                    "period": 1,
+                    "v_total": 11,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "常用UI控件",
+                    "description": "本章为大家介绍常用的UI控件，主要内容包括UILabel、UITextField、UIImage、UIImageView、UIButton、UIControl、UISlider、UISegmentedControl、UIProgressView、UIAlertView、UIActionSheet的使用。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150322943945949-300x168",
+                    "period": 1,
+                    "v_total": 11,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "音乐播放器",
+                    "description": "本章带领大家实现音乐播放器的功能，包括播放器界面的分析、背景视图的添加、导航视图的构建、导航功能的实现、播放控制视图功能实现、背景视图功能实现以及音乐播放功能的实现。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150324447735153-300x168",
+                    "period": 1,
+                    "v_total": 8,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "视图控制器",
+                    "description": "本章主要围绕视图控制器展开讲解，教大家视图如何进行切换、视图控制器的创建、根视图的生命周期、模态视图的概念以及如何实现一个登录界面。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150666832999367-300x168",
+                    "period": 1,
+                    "v_total": 8,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "导航和标签控制器",
+                    "description": "本章带领大家学习导航控制器和标签控制器，主要包括概念、基本用法、导航栏和导航项、标签栏和标签项、导航和标签控制器的组合。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150331738305571-300x168",
+                    "period": 1,
+                    "v_total": 7,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "滑动视图",
+                    "description": "本章围绕滑动视图展开学习，主要学习滑动视图的基本概念、创建及使用、常用属性、代理方法、捏合手势、嵌套及局限性。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150333954075942-300x168",
+                    "period": 1,
+                    "v_total": 7,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "表视图（一）基本用法",
+                    "description": "本章带领大家学习表视图的基本用法，主要包括表视图的创建、常用属性、常用方法、单元格的常用属性、单元格的重用机制、表视图控制器等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150335456836648-300x168",
+                    "period": 1,
+                    "v_total": 9,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "表视图（二）单元格详解",
+                    "description": "在学习表视图的基本方法之后，我们继续学习表视图中单元格的相关知识，包括数据源方法、代理方法、组的头尾视图、编辑模式以及自定义单元格中的简单创建、子类化、IB创建等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150337933364310-300x168",
+                    "period": 1,
+                    "v_total": 7,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "屏幕适配与布局",
+                    "description": "本章带领大家学习屏幕适配与布局，主要包括故事版、Main Storyboard、实例化视图控制器、Scene、Segue、自动布局、约束等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150668913145166-300x168",
+                    "period": 1,
+                    "v_total": 12,
+                    "e_total": 0
+                }
+            ]
+        },
+        {
+            "id": 951,
+            "title": "iOS初级编程开发项目实践",
+            "description": "综合运用UIKit框架，实现一个完整App的界面结构。通过该项目的实践，使学生掌握模型-视图-控制器（MVC）的架构模式，能够搭建完善的移动端应用程序界面。",
+            "subs": [
+                {
+                    "subid": 687,
+                    "title": "项目整体框架搭建",
+                    "description": "本章为电影项目实训的初步准备，包括需求介绍、开发流程介绍、代码规范介绍、MVC架构模式介绍、App图标图片设置、三级控制器的创建、标签栏的设置以及自定义标签栏按钮等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150670681774420-300x168",
+                    "period": 1,
+                    "v_total": 8,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "首页电影列表实现",
+                    "description": "本章通过实际操作完成首页电影列表的实现，包括导航栏的设置、翻转动画、电影海报翻转、JSON数据的解析、首页电影数据抽取、电影列表单元格布局以及电影列表单元格数据填充。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150671889088519-300x168",
+                    "period": 1,
+                    "v_total": 7,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "新闻列表实现",
+                    "description": "本章是新闻列表的实现，让学生能够完成评分星星的实现、UIView 扩展类目与PCH文件添加、新闻列表数据的抽取、单元格注册、新闻列表单元格数据填充、新闻头条放大、滑动视图的偏移等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150673407532178-300x168",
+                    "period": 1,
+                    "v_total": 8,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "Top250",
+                    "description": "本章带领大家实现top250整体界面搭建，主要内容包括整体界面实现、单元格实现、电影详情页实现、评论单元格实现及视频播放。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150674603303250-300x168",
+                    "period": 1,
+                    "v_total": 9,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "缓存处理",
+                    "description": "本章围绕缓存处理进行讲解，主要内容包括重复代码抽取、影院数据整理、影院单元格数据填充、影院列表收缩展开、更多页视图布局、沙盒、NSData、NSFileManager、计算文件夹大小、属性列表及清空图片缓存等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150676210339851-300x168",
+                    "period": 1,
+                    "v_total": 11,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "新闻详情实现",
+                    "description": "本章带领大家完成新闻详情页的实现，主要内容包括新闻图片列表、图片浏览解耦合、子类化 CollectionView 、图片浏览实现、图片单击双击逻辑实现等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150677255844675-300x168",
+                    "period": 1,
+                    "v_total": 8,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "电影首页海报实现",
+                    "description": "本章带领大家完成电影首页海报的实现，主要内容包括电影首页头视图的创建、头视图的完善、大海报页面的实现、自定义分页效果的实现、大小海报重复代码的抽取、大小海报同步滑动等。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150678264502213-300x168",
+                    "period": 1,
+                    "v_total": 6,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "启动页实现",
+                    "description": "本章是整个项目的收尾，教大家判断应用第一次启动以及向导页如何实现。",
+                    "type": 0,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147150679405864510-300x168",
+                    "period": 1,
+                    "v_total": 2,
+                    "e_total": 0
+                },
+                {
+                    "subid": 687,
+                    "title": "iOS编程开发项目实践",
+                    "description": "通过本模块的完整实战项目，能帮助我们将iOS开发中各个方面的技术融会贯通，深入解析其原理及综合应用，使我们具备独立开发商业级项目的能力。",
+                    "type": 1,
+                    "try": 0,
+                    "pic": "http://i.kaikeba.com/147202639923442851-300x168",
+                    "period": 1,
+                    "v_total": 0,
+                    "e_total": 0,
+                    "nodeid": 5978,
+                    "practiseid": 410
+                }
+            ]
+        }
+    ],
+    "force_update": {
+        "version": "1.1.1",
+        "downUrl": "https://itunes.apple.com/cn/app/kai-ke-ba-hu-lian-wang-cong/id1144386019?mt=8",
+        "description": "新增支持无作业实训课的设置，以及不合格作业直接打回重做的功能。"
+    }
+}

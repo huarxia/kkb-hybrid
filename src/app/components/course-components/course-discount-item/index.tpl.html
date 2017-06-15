@@ -1,0 +1,18 @@
+<div class="course-discount-item">
+	<div class="pic">
+		<img
+			:src="data.img">
+	</div>
+    <div class="info-box">
+        <h4
+            :style="{color: data.color}">
+            {{data.title}}
+        </h4>
+        <p class="description">{{data.description}}</p>
+        <a class="kefu"
+            :href="data.kefu.kefuHref"
+            :style="{backgroundColor: data.color}">
+                {{data.kefu.text}}
+        </a>
+    </div>
+</div>

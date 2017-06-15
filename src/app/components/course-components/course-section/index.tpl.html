@@ -1,0 +1,19 @@
+<div id="course-section" class="tab-control-box">
+    <h4 class="title">
+        <span class="tag">{{bindingData.section}}</span>
+        {{bindingData.title}}
+    </h4>
+    <div class="class-item"
+        v-for="item in bindingData.subs"
+        @click="play(item.courseId, item.subid)">
+        <div class="pic">
+            <img :src="item.pic">
+        </div>
+        <div class="info">
+            <p class="title">{{item.title}}</p>
+            <span class="tag">
+                {{item.type === 1 ? '实训任务': '课程学习'}}
+            </span>
+        </div>
+    </div>
+</div>

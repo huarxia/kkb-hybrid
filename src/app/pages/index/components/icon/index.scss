@@ -1,0 +1,36 @@
+#index-icon {
+    background: #fff;
+    & > div {
+        display: inline-block;
+        width: 25%;
+        color: #999;
+        position: relative;
+        padding: .3rem 0;
+        &::after {
+            content: '';
+            width: .02rem;
+            height: .9rem;
+            background-color: rgba(158, 158, 158, .382);
+            margin-top: -.4rem;
+            position: absolute;
+            right: -.01rem;
+            top: 50%;
+            transform: scaleX(.5);
+            z-index: 999;
+        }
+        &:last-child::after {
+            width: 0;
+        }
+        .kkb-h {
+            font-size: .55rem;
+            display: block;
+        }
+        span.text {
+            font-size: .26rem;
+            display: block;
+            margin-top: -.1rem;
+            font-family: 'PingFang SC','Hiragino Sans GB','Microsoft Yahei','arial','\5B8B\4F53','Helvetica Neue','Helvetica','STHeiTi','sans-serif';
+            font-weight: 900;
+        }
+    }
+}

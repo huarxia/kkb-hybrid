@@ -1,0 +1,28 @@
+{
+    "status": 0,
+    "statusInfo": "success",
+    "data": {
+        "signupHeader": {
+            "title": "课程报名"
+        },
+        "signupKefu": {
+            "text": "咨询",
+            "href": "http://kefu8.kuaishang.com.cn/bs/im.htm?cas=30989___418723&fi=35187&ism=1&sText=GaoXiaoBang&ref=H5"
+        },
+        "signupHeaderImg": [
+            {
+                "src": "http://i.kaikeba.com/29420233304304958693-576x324?imageslim",
+                "href": "",
+                "title": {
+                    "text": "报名java2EE开发就业班级"
+                }
+            }
+        ],
+        "select2Objective": [
+            {
+                "id": 123,
+                "text": "测试一下"
+            }
+        ]
+    }
+}
